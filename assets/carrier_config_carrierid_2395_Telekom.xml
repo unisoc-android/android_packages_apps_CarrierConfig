@@ -7,4 +7,9 @@
     <boolean name="auto_retry_failed_wifi_emergency_call" value="true"/>
     <string name="default_vm_number_string">3311</string>
     <string name="carrier_name_string">Telekom</string>
+    <boolean name="call_forwarding_over_ut_warning_bool"  value="false" />
+    <boolean name="call_barring_over_ut_warning_bool"  value="false" />
+    <boolean name="caller_id_over_ut_warning_bool"  value="false" />
+    <boolean name="call_waiting_over_ut_warning_bool"  value="false" />
+    <boolean name="ecc_via_ims" value="true"/>
 </carrier_config>

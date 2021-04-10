@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+</carrier_config>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <string name="carrier_name_string">TRUE</string>
+    <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+</carrier_config>

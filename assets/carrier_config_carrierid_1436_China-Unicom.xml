@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="vilte_data_is_metered_bool" value="false"/>
     <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    <boolean name="hide_video_call_forward" value="true"/>
+    <!--UNISOC: port for porting bug1069096-->
+    <boolean name="call_forwarding_over_ut_warning_bool" value="true" />
+    <boolean name="call_barring_over_ut_warning_bool" value="true" />
+    <boolean name="caller_id_over_ut_warning_bool" value="true" />
+    <boolean name="call_waiting_over_ut_warning_bool" value="true" />
+    <!-- UNISOC : Add for bug1197935-->
+    <boolean name="support_video_conference_call_bool" value="true"/>
+    <!-- UNISOC : Add for bug1213368-->
+    <boolean name="additional_settings_caller_id_visibility_bool" value="false"/>
+    <!-- UNISOC : Add for bug1262629-->
+    <boolean name="Invite_button_should_be_show" value="false"/>
+    <string-array name="hide_apn_types_string_array" num="1">
+        <item value="xcap"/>
+    </string-array>
+    <string name="carrier_name_string">China Unicom</string>
 </carrier_config>

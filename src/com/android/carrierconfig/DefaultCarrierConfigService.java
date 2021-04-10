@@ -1,6 +1,7 @@
 package com.android.carrierconfig;
 
 import android.annotation.Nullable;
+import android.content.res.Resources;
 import android.os.Build;
 import android.os.PersistableBundle;
 import android.service.carrier.CarrierIdentifier;
@@ -135,6 +136,24 @@ public class DefaultCarrierConfigService extends CarrierService {
         catch (IOException | XmlPullParserException e) {
             Log.e(TAG, e.toString());
         }
+
+        /**
+         *  The vendor_ex.xml only exist when build overlay resource follow feature board.
+         *  For example the CMCC product,if you need modify the a boolean value,add the value in the the vendor_ex.xml.
+         *  path : vendor/sprd/feature_configs/carriers/cmcc/overlay/packages/apps/CarrierConfig/res/xml/vendor_ex.xml
+         */
+        try {
+            Resources resource = getApplicationContext().getResources();
+            int resId = resource.getIdentifier("vendor_ex", "xml", getPackageName());
+            XmlPullParser vendorExInput =resource.getXml(resId);
+            PersistableBundle vendorConfigEx = readConfigFromXml(vendorExInput, id);
+            config.putAll(vendorConfigEx);
+            Log.d(TAG, "vendor ex for feature config");
+        }
+        catch (IOException | XmlPullParserException | Resources.NotFoundException e) {
+            Log.e(TAG, e.toString());
+        }
+
 
         return config;
     }

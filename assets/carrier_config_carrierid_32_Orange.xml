@@ -5,7 +5,15 @@
     <int name="maxImageHeight" value="1944"/>
     <int name="maxImageWidth" value="2592"/>
     <int name="maxMessageSize" value="614400"/>
+    <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    <boolean name="hide_enhanced_4g_lte_bool" value="true" />
     <string-array name="carrier_vvm_package_name_string_array" num="1">
         <item value="com.orange.vvm"/>
     </string-array>
+    <string-array name="read_only_apn_types_string_array" num="1">
+        <item value="ims"/>
+    </string-array>
+    <boolean name="request_xcap_pdn_for_clir" value="false" />
+    <boolean name="request_xcap_pdn_for_cw" value="false" />
+    <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
 </carrier_config>

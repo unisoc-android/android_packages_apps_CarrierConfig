@@ -5,4 +5,11 @@
     <string-array name="non_roaming_operator_string_array" num="1">
         <item value="23201"/>
     </string-array>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
 </carrier_config>

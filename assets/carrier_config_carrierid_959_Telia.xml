@@ -4,4 +4,11 @@
     <int name="maxImageHeight" value="1944"/>
     <int name="maxMessageSize" value="614400"/>
     <int name="maxImageWidth" value="2592"/>
+    <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <boolean name="hide_ims_apn_bool" value="true"/>
+    <string-array name="hide_apn_types_string_array" num="1">
+        <item value="xcap"/>
+    </string-array>
 </carrier_config>

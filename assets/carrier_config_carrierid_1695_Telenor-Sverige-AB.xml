@@ -4,4 +4,11 @@
     <int name="maxImageHeight" value="1944"/>
     <int name="maxMessageSize" value="614400"/>
     <int name="maxImageWidth" value="2592"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
+    <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    <!--UNISOC: port for porting bug1222252-->
+    <boolean name="hide_video_call_forward" value="true"/>
+    <boolean name="show_incoming_international_raoming_barring" value="false"/>
 </carrier_config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="config_support_query_all_cf" value="false"/>
+    <!-- UNISOC: add for bug 1147258 -->
+    <int name="call_waiting_service_class_int" value="7" />
+</carrier_config>

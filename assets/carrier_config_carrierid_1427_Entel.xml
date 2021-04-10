@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="editable_vt_resolution_bool" value="false"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <string-array name="read_only_apn_types_string_array" num="1">
+        <item value="ims"/>
+    </string-array>
+    <string-array name="hide_apn_types_string_array" num="1">
+        <item value="xcap"/>
+    </string-array>
+</carrier_config>

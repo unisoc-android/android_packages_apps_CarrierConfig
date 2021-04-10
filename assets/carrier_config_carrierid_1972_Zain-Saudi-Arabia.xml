@@ -3,4 +3,7 @@
     <int name="maxImageHeight" value="1944"/>
     <int name="maxMessageSize" value="409600"/>
     <int name="maxImageWidth" value="2592"/>
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <string name="carrier_name_string">Zain Saudi Arabia</string>
 </carrier_config>

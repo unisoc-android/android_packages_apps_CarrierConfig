@@ -2,10 +2,14 @@
 <carrier_config>
     <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
     <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    <boolean name="support_vowifi_emergency_call" value="true"/>
+    <boolean name="ims_log_answer_elsewhere_call" value="false"/>
+    <boolean name="dial_ecc_vowifi_when_airplane_mode" value="true" />
     <int name="carrier_default_wfc_ims_mode_int" value="1"/>
     <int name="maxImageHeight" value="1944"/>
     <int name="maxImageWidth" value="2592"/>
     <int name="maxMessageSize" value="2097152"/>
+    <int name="call_waiting_service_class_int" value="7" />
     <string name="default_vm_number_string">+61101</string>
     <string-array name="carrier_metered_apn_types_strings" num="3">
         <item value="default"/>
@@ -19,4 +23,6 @@
         <item value="-100"/>
         <item value="-90"/>
     </int-array>
+    <boolean name="support_video_conference_call_bool" value="true"/>
+    <boolean name="request_xcap_pdn_for_cw" value="false" />
 </carrier_config>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="editable_vt_resolution_bool" value="false"/>
+    <boolean name="hide_enhanced_4g_lte_by_network" value="true" />
+    <string-array name="read_only_apn_types_string_array" num="1">
+        <item value="ims"/>
+    </string-array>
+    <string name="default_vm_number_string">*169</string>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+</carrier_config>

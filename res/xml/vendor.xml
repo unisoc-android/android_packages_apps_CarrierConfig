@@ -3,4 +3,22 @@
      filtering rules are the same as those in carrier_config*.xml files. This
      file is read after any specific config file from the assets folder, so it
      must use explicit filters for MCC ad MNC if that is desired. -->
-<carrier_config_list />
+<carrier_config_list>
+<carrier_config>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+             <item value="default" />
+             <item value="dun" />
+             <item value="supl" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+             <item value="default" />
+             <item value="dun" />
+             <item value="supl" />
+        </string-array>
+    <!-- UNISOC:add for bug 1138654 -->
+    <string name="config_ims_package_override_string">com.google.android.ims</string>
+    <boolean name="hide_lte_plus_data_icon_bool" value="false"/>
+    <!-- UNISOC: Unify WCDMA signal bar level calc method and signal strength reporting criteria -->
+    <string name="wcdma_default_signal_strength_measurement_string">rscp</string>
+    </carrier_config>
+</carrier_config_list>

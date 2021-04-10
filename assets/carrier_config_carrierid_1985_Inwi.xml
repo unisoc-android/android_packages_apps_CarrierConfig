@@ -3,4 +3,6 @@
     <int name="maxImageHeight" value="1944"/>
     <int name="maxMessageSize" value="102400"/>
     <int name="maxImageWidth" value="2592"/>
+    <boolean name="carrier_vt_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
 </carrier_config>

@@ -5,4 +5,8 @@
     <int name="recipientLimit" value="20"/>
     <int name="maxSubjectLength" value="80"/>
     <int name="maxMessageSize" value="1048576"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
 </carrier_config>

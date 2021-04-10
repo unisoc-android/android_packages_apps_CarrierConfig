@@ -6,4 +6,5 @@
     <int name="maxImageHeight" value="1944"/>
     <int name="maxMessageSize" value="614400"/>
     <int name="maxImageWidth" value="2592"/>
+    <string name="carrier_name_string">SFR</string>
 </carrier_config>

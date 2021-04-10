@@ -3,4 +3,16 @@
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
     <boolean name="hide_lte_plus_data_icon_bool" value="false"/>
+    <boolean name="support_send_ss_over_vowifi_with_airplane" value="true"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="support_vowifi_emergency_call" value="true"/>
+    <boolean name="retry_ecc_vowifi" value="true"/>
+    <string-array name="hide_apn_types_string_array" num="1">
+        <item value="xcap"/>
+    </string-array>
+    <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    <!-- UNISOC:modify for bug1103689 @{ -->
+    <boolean name="enhanced_4g_lte_on_by_default_bool" value="false" />
+    <!-- @} -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
 </carrier_config>

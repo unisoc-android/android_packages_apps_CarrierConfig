@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <string name="carrier_name_string">FI Telia</string>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
+    <boolean name="hide_ims_apn_bool" value="true"/>
+    <!--UNISOC: port for porting bug1069096-->
+    <boolean name="hide_video_call_forward" value="true"/>
+    <string-array name="hide_apn_types_string_array" num="1">
+        <item value="xcap"/>
+    </string-array>
+</carrier_config>

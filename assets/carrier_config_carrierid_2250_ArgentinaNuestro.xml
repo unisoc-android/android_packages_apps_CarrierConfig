@@ -3,4 +3,5 @@
     <string-array name="non_roaming_operator_string_array" num="1">
         <item value="72234"/>
     </string-array>
+    <string name="default_vm_number_string">*555</string>
 </carrier_config>

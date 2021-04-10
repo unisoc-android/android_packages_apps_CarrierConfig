@@ -3,4 +3,8 @@
     <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
     <boolean name="skip_cf_fail_to_disable_dialog_bool" value="true"/>
     <string name="sim_country_iso_override_string">mx</string>
+    <string name="carrier_name_string">AT&amp;T MX</string>
+    <boolean name="hspap_show_4g" value="true" />
+    <boolean name="ignore_network_scan_under_2g" value="true"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
 </carrier_config>

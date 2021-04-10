@@ -4,8 +4,14 @@
     <boolean name="display_voicemail_number_as_default_call_forwarding_number" value="true"/>
     <boolean name="prefer_2g_bool" value="false"/>
     <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    <boolean name="support_vowifi_emergency_call" value="true"/>
+    <boolean name="retry_ecc_vowifi" value="true"/>
+    <boolean name="deregister_vowifi_before_dial_ecc" value="true"/>
+    <boolean name="dial_ecc_vowifi_when_airplane_mode" value="true" />
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
     <int name="wfc_spn_format_idx_int" value="1"/>
     <string name="carrier_name_string">EE</string>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
     <string-array name="non_roaming_operator_string_array" num="6">
         <item value="23430"/>
         <item value="23431"/>
@@ -17,4 +23,5 @@
     <string-array name="wfc_operator_error_codes_string_array" num="1">
         <item value="REG09|0"/>
     </string-array>
+    <boolean name="show_volte_icon" value="false"/>
 </carrier_config>

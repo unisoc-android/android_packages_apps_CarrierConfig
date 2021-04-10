@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <carrier_config>
     <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    <boolean name="HD_voice_icon_should_be_removed" value="true"/>
 </carrier_config>

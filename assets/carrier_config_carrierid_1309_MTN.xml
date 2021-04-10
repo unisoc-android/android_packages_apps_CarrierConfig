@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <string name="carrier_name_string">MTN-SA</string>
+    <boolean name="carrier_video_calling_setting_enabled_bool" value="false"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+</carrier_config>

@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="stk_different_launch_browser_tr" value="true"/>
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
     <boolean name="carrier_name_override_bool" value="true"/>
+    <boolean name="airtel_ringbacktone_enabled_bool" value="true" />
     <string name="carrier_name_string">airtel</string>
     <int name="httpSocketTimeout" value="300000"/>
     <string-array name="roaming_operator_string_array" num="2">
         <item value="404"/>
         <item value="405"/>
     </string-array>
+    <boolean name="support_multi_call" value="false"/>
+    <boolean name="support_video_conference_call_bool" value="true"/>
+    <boolean name="manage_conference_even_srvcc_bool" value="true"/>
+    <!-- UNISOC: add for bug 1185900 -->
+    <boolean name="Invite_button_should_be_show" value="false"/>
 </carrier_config>

@@ -4,4 +4,6 @@
     <int name="maxImageHeight" value="1944"/>
     <int name="maxMessageSize" value="2097152"/>
     <int name="maxImageWidth" value="2592"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
 </carrier_config>

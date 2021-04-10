@@ -4,4 +4,5 @@
         <item value="404"/>
         <item value="405"/>
     </string-array>
+    <boolean name="support_multi_call" value="false"/>
 </carrier_config>

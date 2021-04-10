@@ -4,4 +4,6 @@
     <int name="maxImageHeight" value="1944"/>
     <int name="maxMessageSize" value="1048576"/>
     <int name="maxImageWidth" value="2592"/>
+    <!-- add for hide video call forward -->
+    <boolean name="hide_video_call_forward" value="true"/>
 </carrier_config>

@@ -15,7 +15,6 @@
     <boolean name="carrier_volte_provisioned_bool" value="true"/>
     <boolean name="carrier_volte_provisioning_required_bool" value="true"/>
     <boolean name="carrier_vt_available_bool" value="true"/>
-    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
     <boolean name="cdma_home_registered_plmn_name_override_bool" value="true"/>
     <boolean name="disable_severe_when_extreme_disabled_bool" value="false"/>
     <boolean name="disable_voice_barring_notification_bool" value="true"/>

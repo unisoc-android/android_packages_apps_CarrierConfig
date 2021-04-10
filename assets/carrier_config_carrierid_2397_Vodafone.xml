@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <boolean name="support_vowifi_emergency_call" value="true"/>
+    <boolean name="retry_ecc_vowifi" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+</carrier_config>

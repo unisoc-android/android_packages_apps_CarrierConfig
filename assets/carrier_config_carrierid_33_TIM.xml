@@ -4,4 +4,11 @@
     <int name="maxImageHeight" value="1944"/>
     <int name="maxMessageSize" value="1048576"/>
     <int name="maxImageWidth" value="2592"/>
+    <boolean name="call_forwarding_over_ut_warning_bool"  value="false" />
+    <boolean name="call_barring_over_ut_warning_bool"  value="false" />
+    <boolean name="caller_id_over_ut_warning_bool"  value="false" />
+    <boolean name="call_waiting_over_ut_warning_bool"  value="false" />
+    <boolean name="request_xcap_pdn_for_clir" value="false" />
+    <boolean name="request_xcap_pdn_for_cw" value="false" />
+    <boolean name="support_disable_ut_by_network" value="true" />
 </carrier_config>

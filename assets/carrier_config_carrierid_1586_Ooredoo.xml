@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <!--UNISOC: add for bug1231890-->
+    <boolean name="hide_video_call_forward" value="true"/>
+</carrier_config>

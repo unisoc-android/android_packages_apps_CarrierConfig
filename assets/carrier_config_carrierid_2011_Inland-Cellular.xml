@@ -4,7 +4,6 @@
     <boolean name="carrier_volte_tty_supported_bool" value="false"/>
     <boolean name="enabledMMS" value="true"/>
     <boolean name="enableMultipartSMS" value="true"/>
-    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
     <boolean name="carrier_ims_gba_required_bool" value="true"/>
     <boolean name="carrier_name_override_bool" value="true"/>
     <int name="smsToMmsTextThreshold" value="1"/>

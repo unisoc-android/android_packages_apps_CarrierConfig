@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="vilte_data_is_metered_bool" value="false"/>
+    <string-array name="read_only_apn_types_string_array" num="3">
+        <item value="ims"/>
+        <item value="default"/>
+        <item value="mms"/>
+    </string-array>
+</carrier_config>
